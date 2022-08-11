@@ -96,3 +96,29 @@ i{
     color : blue;
 }
 
+
+/* Blog Form  */
+
+.form-group {
+    margin : 20px 0;
+}
+
+label {
+    color : blue;
+    font-size : 1.3em;
+}
+
+input {
+    font-size : 1.2em;
+    color : cyan;
+}
+@media screen and (max-width: 90vw), 
+       screen and (max-height: 95vh) {
+        .flex-card {
+            height : 150%;
+            width : 100%;
+        }       
+        .container {
+            display : block;
+        }
+}
