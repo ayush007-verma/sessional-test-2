@@ -1,0 +1,25 @@
+ /* Header Nav Bar Logo */
+
+ #logo {
+    background-image: url(./assets/image1.png);
+    height : 100px;
+    width : 100px;
+    /* border-radius: 20%; */
+    background-position: center;
+    background-size: 100px;
+}
+
+.nav-item {
+    margin : 10px;
+    font-size : 1.2em;
+}
+
+
+#search-form {
+    margin-left : 10vw;
+}
+input {
+    height : 40px;
+    width : 300px;
+    border : solid blue;
+}
